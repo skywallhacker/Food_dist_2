@@ -11,6 +11,12 @@ a {
     text-decoration: none
 }
 
+.error::placeholder {
+    color: red;
+}
+
+
+
 .btn {
     width: 220px;
     height: 65px;
@@ -404,6 +410,10 @@ a {
     cursor: pointer;
     outline: 0;
     transition: .3s all
+}
+
+.eror {
+    border: 1px solid red;
 }
 
 .calculating__choose-item_active {
